@@ -26,6 +26,6 @@ install:
   - yarn --version 
 
 build_script:
-  - yarn release
+  - yarn dist
 
 test: off
