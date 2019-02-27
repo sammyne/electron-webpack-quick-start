@@ -18,7 +18,7 @@ cache:
 init:
   - git config --global core.autocrlf input 
 
-install
+install:
   - ps: Install-Product node 11 x64 
   - git reset --hard HEAD 
   - yarn 
