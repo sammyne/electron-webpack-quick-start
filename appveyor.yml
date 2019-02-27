@@ -23,7 +23,7 @@ init:
   - git config --global core.autocrlf input 
 
 install:
-  - choco install --version nodejs 11.10.0
+  - choco install nodejs --version 11.10.0
   - git reset --hard HEAD 
   - yarn 
   - node --version
