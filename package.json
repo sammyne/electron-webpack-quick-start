@@ -7,7 +7,7 @@
     "compile": "electron-webpack",
     "dist": "yarn compile && electron-builder",
     "dist:dir": "yarn dist --dir -c.compression=store -c.mac.identity=null",
-    "release": "build"
+    "release": "yarn compile && build"
   },
   "dependencies": {
     "source-map-support": "^0.5.10"
