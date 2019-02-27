@@ -24,6 +24,7 @@ init:
 
 install:
   - choco install nodejs --version 11.10.0
+  - choco install yarn --version 1.13.0
   - git reset --hard HEAD 
   - yarn 
   - node --version
