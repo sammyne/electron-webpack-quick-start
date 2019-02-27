@@ -7,6 +7,8 @@ Thanks to the power of `electron-webpack` this template comes packed with...
 * HMR for both `renderer` and `main` processes
 * Use of [`babel-preset-env`](https://github.com/babel/babel-preset-env) that is automatically configured based on your `electron` version
 * Use of [`electron-builder`](https://github.com/electron-userland/electron-builder) to package and build a distributable electron application
+  - To release the Windows version for github, [appveyor](https://www.appveyor.com/) CI is employed and configured as [appveyor.yml](appveyor.yml)
+    > Don't forget the set the encrypted `GH_TOKEN` environment to switch on the publishing to the github release (as described by [`publish` configuration of `electron-builder`](https://www.electron.build/configuration/publish))
 
 Make sure to check out [`electron-webpack`'s documentation](https://webpack.electron.build/) for more details.
 
