@@ -9,6 +9,10 @@ image: Visual Studio 2017
 platform:
   - x64
 
+environment:
+  GH_TOKEN:
+    secure: rI+sosKKgMCLnb6Bns0gP3V7PXDj4UaPt5lAGEhknpayucW42OSMrgryLsXk0c7e
+
 cache:
   - node_modules 
   - '%APPDATA%\npm-cache'
